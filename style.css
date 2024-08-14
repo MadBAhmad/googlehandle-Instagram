@@ -13,7 +13,6 @@ body{
     flex-direction: column;
     gap: 12px;
     border-right: 1px solid lightgray;
-    /* position: fixed; */
 }
 
 .logo img{
@@ -53,11 +52,91 @@ body{
     border: none;
 }
 
+.right-bar-items{
+    display: flex;
+}
+.right-bar-option{
+    display: flex;
+    width: 900px;
+    margin: 0 80px 0 80px;
+}
 
+.google-logo{
+    width: 120px;
+    height: 120px;
+    margin: 20px 80px 50px 150px;
+    border-radius: 120px;
+    border: 1px solid lightgray;
+    align-items: center;
+    padding: 40px;
+}
+.google-logo-img{
+    width: 100%;
+}
+.follow{
+    width: 83px;
+    height: 32px;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 14px;
+    background-color: #0095F6;
+    color: white;
+    border: none;    
+}
 
+.message{
+    width: 83px;
+    height: 32px;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 14px;
+    background-color: #EFEFEF;
+    color: black;
+    border: none;
+}
+.add-friends{
+    padding: 8px;
+    width: 20px;
+    height: 18px;
+    background-color: #EFEFEF;
+    border-radius: 10px;
 
+}
+.google-logo-right-content{
+    display: flex;
+    align-items: center;
+    width: 480px;
+    height: 80px;
+}
 
+.handlename-google{
+    font-weight: 400;
+    margin-right: 4px;
+    font-size: 20px;
+}
 
+.verify-icon{
+    margin-right: 40px;
+}
+.follow-btn{
+    margin-right: 8px;
+}
+.message-btn{
+    margin-right: 8px;
+}
+.add-friends{
+    margin-right: 8px;
+} 
+
+.handle-verify{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.verify-message-add-more{
+    display: flex;
+    justify-content: space-evenly;
+}
 
 
 
